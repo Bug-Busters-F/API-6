@@ -1,0 +1,9 @@
+[submodule "API-6-frontend"]
+	path = API-6-frontend
+	url = https://github.com/Bug-Busters-F/API-6-frontend
+[submodule "API-6-backend"]
+	path = API-6-backend
+	url = https://github.com/Bug-Busters-F/API-6-backend
+[submodule "API-6-ai"]
+	path = API-6-ai
+	url = https://github.com/Bug-Busters-F/API-6-ai
