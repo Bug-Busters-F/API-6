@@ -39,27 +39,30 @@ O sistema integra bases de RH, vendas e comissionamento para realizar apuraçõe
 
 | Sprint | Previsão | Status |
 | ------ | -------- | ------ |
-| Kick Off | 26/08 | Concluido |
-| 01 | 27/09 | Em andamento |
-| 02 | 25/10 | A fazer|
-| 03 | 22/11 | A fazer |
+| Kick Off | 26/08 | Concluido |  
+| [01](docs/sprint-1.md) | 27/09 | Em andamento |
+| [02](docs/sprint-2.md) | 25/10 | A fazer|
+| [03](docs/sprint-3.md) | 22/11 | A fazer |
 | Feira de Soluções | 03/12 | A fazer |
 
 ### Backlog do Produto
 
-| Rank | Prioridade | User Story | Sprint | Status |
-| :--: | :--------: | :--------- | :----: | :----: |
-| 1 | Alta | Como gestor de negócios, quero cadastrar, editar e remover regras de negócio manualmente para ter controle sobre as comissões. | 1 | Backlog |
-| 2 | Alta | Como administrador, quero que o motor de regras cruze uma venda com uma regra de comissão ativa para calcular o valor a ser pago. | 1 | Backlog |
-| 3 | Média | Como administrador, quero que regras sem data final recebam validade padrão de 30 dias para evitar comissionamentos por tempo indeterminado. | 1 | Backlog |
-| 4 | Alta | Como administrador, quero que cada cálculo de comissão executado gere um log imutável para garantir a rastreabilidade em caso de contestações financeiras. | 1 | Backlog |
-| 5 | Alta | Como gestor de negócios, quero digitar uma regra em texto livre e ter o sistema traduzindo-a para o padrão executável da aplicação. | 1 | Backlog |
-| 6 | Alta | Como gestor de negócios, quero simular o impacto financeiro de uma nova regra processando um histórico de vendas (sandbox). | 2 | Backlog |
-| 7 | Alta | Como gestor de negócios, quero revisar o resultado da simulação antes de confirmar a ativação da regra em produção. | 2 | Backlog |
-| 8 | Média | Como gestor de negócios, quero ser alertado quando houver anomalias nas vendas de um colaborador (outliers). | 3 | Backlog |
-| 9 | Baixa | Como gestor de negócios, quero receber sugestões de ajuste nos parâmetros caso a simulação estoure meu orçamento de comissões. | 3 | Backlog |
-| 10 | Média | Como gestor de negócios, quero emitir o relatório de fechamento do período detalhando comissões por canal e equipe. | 3 | Backlog |
-| 11 | Média | Como administrador, quero visualizar o histórico de alterações das regras de negócio (logs de auditoria) para saber quem modificou taxas ou validades. | 3 | Backlog |
+| Rank | Prioridade | User Story | Estimativa | Sprint |
+| :--: | :--------: | :--------- | :--------: | :----: |
+| 1 | Alta | Como gestor de negócios, quero cadastrar, editar e remover regras de negócio manualmente para ter controle sobre as comissões. | 3 | 1 |
+| 2 | Alta | Como administrador, quero que o motor de regras cruze uma venda com uma regra de comissão ativa para calcular o valor a ser pago. | 5 | 1 |
+| 3 | Média | Como administrador, quero que o sistema bloqueie o cadastro de regras de negócio que não possuam data final definida, para evitar comissionamentos por tempo indeterminado. | 2 | 1 |
+| 4 | Alta | Como administrador, quero que cada cálculo de comissão executado gere um log imutável para garantir a rastreabilidade em caso de contestações financeiras. | 3 | 1 |
+| 5 | Alta | Como gestor de negócios, quero digitar uma regra em texto livre e ter o sistema traduzindo-a para o padrão executável da aplicação. | 8 | 1 |
+| 6 | Alta | Como administrador, quero importar as bases de RH, vendas e taxas de comissão para compor os dados do sistema e viabilizar o cálculo de comissionamento por competência. | 8 | 1 |
+| 7 | Alta | Como gestor de negócios, quero simular o impacto financeiro de uma nova regra processando um histórico de vendas (sandbox). | 8 | 2 |
+| 8 | Alta | Como gestor de negócios, quero revisar o resultado da simulação antes de confirmar a ativação da regra em produção. | 5 | 2 |
+| 9 | Média | Como gestor de negócios, quero ser alertado quando houver anomalias nas vendas de um colaborador (outliers). | 8 | 3 |
+| 10 | Baixa | Como gestor de negócios, quero receber sugestões de ajuste nos parâmetros caso a simulação estoure meu orçamento de comissões. | 5 | 3 |
+| 11 | Média | Como gestor de negócios, quero emitir o relatório de fechamento do período detalhando comissões por canal e equipe. | 5 | 3 |
+| 12 | Média | Como administrador, quero visualizar o histórico de alterações das regras de negócio (logs de auditoria) para saber quem modificou taxas ou validades. | 3 | 3 |
+
+Estimativas em Story Points.
 
 ### Roadmap
 
